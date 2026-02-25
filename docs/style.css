@@ -3,14 +3,35 @@ body {
     /*background:papayaWhip*/
     background: LightSteelBlue;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    line-height:1.5rem;
+}
+
+/* RESUME STYLING */
+
+section#main {
+    padding:2em;
+}
+
+section.sub1 {
+    padding-left:5em;
+    border:2px solid green;
+    background:lavender;
+}
+
+body#bunter {
+    background:LightSteelBlue;
 }
 
 div.side-by-side {
     display: flex;
 }
 
+figure {
+    background: papayawhip;
+}
+
 img {
-    width: 59%;
+    width: 100%;
     max-width: 500px;
 }
 
