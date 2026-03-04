@@ -18,6 +18,12 @@ section.sub1 {
     background:lavender;
 }
 
+section.sub2 {
+    padding-left:5em;
+    border:2px solid green;
+    background:lavender;
+}
+
 body#bunter {
     background:LightSteelBlue;
 }
