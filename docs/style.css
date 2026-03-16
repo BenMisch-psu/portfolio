@@ -1,40 +1,60 @@
 body {
 
     /*background:papayaWhip*/
-    background: LightSteelBlue;
+    margin: 15px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1C0770, #261CC1, #3A9AFF);
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
-    line-height:1.5rem;
+    line-height: 1.5rem;
+    color: lightgray;
+    text-shadow: 2px 2px 2px black;
 }
 
 /* RESUME STYLING */
 
 section#main {
-    padding:2em;
+    padding: 2em;
+}
+
+.centerize {
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 0px 0px 5px 3px #F1FF5E;
 }
 
 section.sub1 {
-    padding-left:5em;
-    border:2px solid green;
-    background:lavender;
+    padding-left: 5em;
+    border: 2px solid #F1FF5E;
+    background: #3A9AFF;
+    color: black;
+    text-shadow: 0px 0px 0px black;
 }
 
 section.sub2 {
-    padding-left:5em;
-    border:2px solid green;
-    background:lavender;
+    padding-left: 5em;
+    border: 2px solid #F1FF5E;
+    background: #3A9AFF;
+    color: black;
+    text-shadow: 0px 0px 0px black;
 }
 
 body#bunter {
-    background:LightSteelBlue;
+    background: LightSteelBlue;
 }
 
 div.side-by-side {
     display: flex;
 }
 
-figure {
-    background: black;
-    color: silver;
+figure.gallery {
+    text-align: center;
+    max-width: 500px;
+}
+
+figure.selfie {
+
 }
 
 img {
@@ -43,6 +63,9 @@ img {
 }
 
 .featureBlock {
-    background-color:pink;
+    background-color: #F1FF5E;
     font-size: smaller;
+    text-align: center;
+    text-shadow: 0px 0px 0px black;
+    font-weight: bold;
 }
