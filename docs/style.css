@@ -67,6 +67,11 @@ img {
     max-width: 500px;
 }
 
+img.bookends {
+    justify-content: center;
+    height: 500%;
+}
+
 .featureBlock {
     background-color: #F1FF5E;
     font-size: smaller;
